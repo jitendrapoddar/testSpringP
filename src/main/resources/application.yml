@@ -1,0 +1,6 @@
+#spring:
+#  database:
+#    driver-class-name: org.hibernate.dialect.PostgreSQLDialect
+#    url: jdbc:postgresql://ovibwgmkkgsrok:d2a1f1e2d9d62680c3e60dedc5b564ab5ae1f2519b96360127774a3bfb520ffc@ec2-50-16-221-180.compute-1.amazonaws.com:5432/d50anpr7vd9b2o;database=salesforce.contact
+#    username: ovibwgmkkgsrok
+#    password: d2a1f1e2d9d62680c3e60dedc5b564ab5ae1f2519b96360127774a3bfb520ffc
