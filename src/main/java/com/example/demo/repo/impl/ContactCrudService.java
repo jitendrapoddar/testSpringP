@@ -21,7 +21,7 @@ public class ContactCrudService implements CrudService{
 
 	@Override
 	public List<Contact> getAllContacts() {
-		final String sql = "SELECT * from contact";
+		final String sql = "SELECT * from salesforce.contact";
 		List<Contact> result = template.query(sql, new ContactMapper());
 		
 		return result;
