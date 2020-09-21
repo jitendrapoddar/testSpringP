@@ -29,9 +29,9 @@ public class ContactCrudService implements CrudService{
 
 	@Override
 	public Contact getContactById(String id) {
-		final String sql = "SELECT * from contact where contactId = :contactId";
+		final String sql = "SELECT * from contact where Id = :Id";
         SqlParameterSource param = new MapSqlParameterSource()
-        		.addValue("contactId", id);
+        		.addValue("Id", id);
 		Contact result = template.queryForObject(sql, param, new ContactMapper());
 		return result;
 	}
